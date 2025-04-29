@@ -1,0 +1,15 @@
+{
+    "name": "golu",
+    "age": 20,
+    "email": "golu715@gmail.com",
+    "isSubscribed": true,
+    "hobbies": [
+        "reading",
+        "running",
+        "cooking"
+    ],
+    "address": {
+        "city": "Delhi",
+        "idk": true
+    }
+}

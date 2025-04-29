@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgb(34, 34, 34);
+            padding: 20px;
+            height: 100vh;
+            /* //imp-> GRID stuff here */
+            display: grid;
+
+            /* //imp-> for naming u cant use repeat fxn here */
+            /* yha naming kar di hamne lines ki */
+            /* grid-template-columns: [start] 100px 100px [end] 100px; */
+            grid-template-columns: [start] 100px 100px 100px[end];
+            grid-template-rows: 100px 100px 100px;
+
+
+
+        }
+
+        header {
+            grid-column: start/end;
+        }
+
+
+
+
+
+        .s {
+            padding: 20px;
+            background-color: rgb(84, 84, 84);
+            text-align: center;
+            color: #fff;
+            margin: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //imp-> grid line => horizontal or vertical line -->
+    <section class="container">
+        <header class="s">Header</header>
+        <nav class="s">Nav</nav>
+        <main class="s">Main</main>
+        <aside class="s">Aside</aside>
+        <footer class="s">Footer</footer>
+        <div class="s">Div</div>
+    </section>
+</body>
+
+
+</html>

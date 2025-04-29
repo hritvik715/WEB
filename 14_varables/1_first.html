@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* //imp-> hamne  root mey varible create kiya hai*/
+        :root {
+            /* //imp-> we use two dashes with variable name but dont give spaces in between */
+            --primary-color: teal;
+            --font-size: 4rem;
+            --bg-color: red;
+            --p: 20px;
+        }
+
+        h1 {
+            /* //imp-> var(name daalte andar varibale ka) */
+            color: var(--primary-color);
+            background: var(--bg-color);
+            padding: var(--p);
+
+        }
+
+        h2 {
+            font-size: var(--font-size);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+</body>
+
+</html>

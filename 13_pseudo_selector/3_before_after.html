@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 5rem;
+        }
+
+        /* //imp-> before selector insert content before a selected element */
+
+        p::before {
+            /* //imp-> u can keep imag,svg etc inside this */
+            content: "hello ";
+            background-color: red;
+            font-size: 20px;
+            color: aquamarine;
+            font-weight: 800;
+        }
+
+
+
+        p::after {
+            content: "bye";
+            background-color: red;
+            font-size: 20px;
+            color: white;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <p>hey hritvik</p>
+</body>
+
+</html>

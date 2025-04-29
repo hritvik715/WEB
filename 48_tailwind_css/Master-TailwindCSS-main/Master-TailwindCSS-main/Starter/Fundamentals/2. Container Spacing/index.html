@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Container & Spacing</title>
+  <style>
+    body {
+      padding: 5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Margin -->
+  <!-- https://tailwindcss.com/docs/margin -->
+  <h3>1. Margin</h3>
+  <div class="m-1 bg-yellow-100">margin for all around</div>
+  <div class="mx-4 bg-yellow-200">Margin from x-axis </div>
+  <div class="my-4 bg-yellow-300">Margin from y-axis </div>
+  <div class="mt-6 bg-yellow-400">Margin top </div>
+  <div class="mr-4 bg-yellow-500">Margin right </div>
+  <div class="ml-4 bg-yellow-700">Margin left </div>
+  <div class="mb-4 bg-yellow-600">Margin bottom </div>
+
+
+  <!-- Arbitrary Spacing //imp->box bracket kay andar daal do ho jaayega-->
+  <div class="m-[100px] bg-slate-700">2. margin all around</div>
+
+
+
+
+  <!-- Padding -->
+  <!-- https://tailwindcss.com/docs/padding -->
+  <h3> 3. padding</h3>
+  <div class="p-4 bg-lime-100">padding all around</div>
+  <div class="px-4 bg-lime-200">padding x axis</div>
+  <div class="py-4 bg-lime-300">padding y axis</div>
+  <div class="pt-6 bg-lime-400">padding top</div>
+  <div class="pr-4 bg-lime-500">padding right</div>
+  <div class="pl-8 bg-lime-600">padding left</div>
+  <!-- //imp-> to provide an arbitrary value just provide inside the box bracket (box bracket kay andar px i.e unit bhi likhte hai)-->
+  <div class="pb-[100px] bg-lime-700">padding bottom</div>
+
+
+
+  <!-- https://tailwindcss.com/docs/space -->
+  <!-- Space Between X -->
+  <h3>Space between X</h3>
+  <!-- //imp-> x axis mey space aa jaayega -->
+  <div class="flex space-x-4">
+    <div class="p-3 bg-teal-100">01</div>
+    <div class="p-3 bg-teal-100">02</div>
+    <div class="p-3 bg-teal-100">03</div>
+  </div>
+
+
+
+
+
+
+  <!-- Space Between Y -->
+  <h3>Space between Y</h3>
+  <!-- //imp->  axis mey space aa jaayega -->
+  <div class="flex flex-col space-y-6">
+    <div class="p-3 bg-teal-100">01</div>
+    <div class="p-3 bg-teal-100">02</div>
+    <div class="p-3 bg-teal-100">03</div>
+  </div>
+
+
+</body>
+
+</html>

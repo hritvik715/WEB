@@ -1,0 +1,4 @@
+install (thunder client) extension in VS code
+
+
+hold (ctrl+Q) you will get option for thunder client

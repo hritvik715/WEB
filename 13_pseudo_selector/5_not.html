@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #333;
+            padding: 2rem;
+            color: #fff;
+        }
+
+        .section {
+            width: 42em;
+            margin: 0 auto;
+            background: rgb(32, 32, 31);
+            padding: 4 rem;
+        }
+
+        .section button:not([disabled]) {
+            /* //imp-> disabled attribute select kar liya toh ye style sabme apply hogi except disabled attribute*/
+            font-size: 20px;
+            background: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <article class="section">
+        <button>button A</button>
+        <button>button B</button>
+        <!-- //imp-> disabled attribute se vo button disable ho jaayega -->
+        <button disabled>button C</button>
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body {
+            background: #333;
+            padding: 2rem;
+            color: #fff;
+        }
+
+        .section {
+            width: 42em;
+            margin: 0 auto;
+            background: rgb(32, 32, 31);
+            padding: 4 rem;
+        }
+
+        /* //imp-> href mey link jab dete hai toh star ko use karte hai */
+        .section a:not([href*="https://www.google.com"]) {
+            color: brown;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <article class="section">
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.udemy.com">udemy</a>
+        <a href="https://www.facebook.com">fb</a>
+    </article>
+
+</body>
+
+</html>

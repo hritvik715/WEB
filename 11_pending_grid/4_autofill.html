@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgb(34, 34, 34);
+            padding: 20px;
+            height: 100vh;
+            /* //imp-> GRID stuff here */
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit, 200px); */
+
+            /*//imp-> 6:09:00 */
+            grid-template-columns: repeat(auto-fill, 200px);
+            /* grid-template-rows: repeat(auto-fit, 200px); */
+            grid-template-rows: repeat(3, 100px);
+            grid-gap: 10px;
+
+        }
+
+
+        aside {
+            grid-column-end: -1;
+        }
+
+
+        .s {
+            padding: 20px;
+            background-color: rgb(84, 84, 84);
+            text-align: center;
+            color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //imp-> grid line => horizontal or vertical line -->
+    <section class="container">
+        <header class="s">Header</header>
+        <nav class="s">Nav</nav>
+        <main class="s">Main</main>
+        <aside class="s">Aside</aside>
+        <footer class="s">Footer</footer>
+        <div class="s">Div</div>
+    </section>
+</body>
+
+</html>

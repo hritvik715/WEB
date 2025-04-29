@@ -1,0 +1,22 @@
+visit => mongoose site and install it on ur machine
+
+
+from here 👇 
+https://www.mongodb.com/try/download/community 
+
+
+
+
+
+to start on cmd/terminal => type => mongosh
+to list the DB => show dbs 
+to exit => exit 
+
+to get the current active DB => db.getName()
+
+u can also write javascript in Mongosh terminal  
+
+//imp-> test is the current database  
+
+
+41:00:00

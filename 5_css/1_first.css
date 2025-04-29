@@ -1,0 +1,27 @@
+h3 {
+    /* color: blueviolet; */
+    /* color: rgb(red, green, blue); */
+
+
+    /* //imp-> rgb mey har ek ki color value 0  to 255 rakh sakte hai */
+    /* color: rgb(0, 115, 230); */
+
+    /* //imp->hex color is also there (to use hex first u need to use # symbol) */
+
+    /* color: #3cb371; */
+
+
+    /* another one is rgba here a stands for alpoha transparency */
+    /* color: rgba(255, 0, 0, 0.822); */
+
+
+
+    /*//imp-> hsl => hue,transparency ,lightness*/
+    color: hsl(142, 234, 46);
+}
+
+h1 {
+    background: pink;
+}
+
+/* //imp-> visit adome color for trendy colors */

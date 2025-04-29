@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Backgrounds & Shadows</title>
+</head>
+
+<body>
+  <!-- Background Images -->
+  <!-- https://tailwindcss.com/docs/background-image -->
+
+
+  <!-- <div class="h-screen w-full bg-blue-500 bg-cover bg-no-repeat bg-center"
+    style="background-image: url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1YWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');">
+  </div>
+ -->
+
+
+
+
+
+
+
+
+
+  <!-- Shadows -->
+  <!-- https://tailwindcss.com/docs/drop-shadow -->
+  <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
+  <div class="flex flex-wrap">
+    <!-- //imp-> outer shadow -->
+    <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">Shadow medium </div>
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">Shadow Large </div>
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">Shadow xl </div>
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-2xl">Shadow extra 2xl </div>
+
+
+
+    <!-- //imp-> inner shadow (box bracket kay andar arbitrary vale hai)-->
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner shadow </div>
+
+
+
+
+    <!-- //imp-> colors/shadow -->
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-red-300">Inner shadow </div>
+    <!-- //imp-> 40 is the opacity here -->
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-teal-300/40">Inner shadow </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Gradients -->
+  <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+
+  <div class="h-40 bg-gradient-to-r from-pink-100 to-red-500 m-10 text-center p-10">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi inventore accusamus eum provident deleniti
+    doloremque, delectus ipsa debitis blanditiis asperiores adipisci ducimus quaerat. Amet similique iste laudantium
+    tenetur magnam fugit?
+  </div>
+
+
+  <!-- //imp-> three color gradient -->
+  <!-- //imp-> crimson arbitary color hai -->
+  <div class="h-40 bg-gradient-to-r from-cyan-100 via-[crimson]-300 to-red-400 mt-10 text-center p-40">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ratione aspernatur. Tenetur corrupti quidem quas
+    nisi esse eum blanditiis expedita. Cupiditate nemo quibusdam nobis fugiat, deleniti deserunt vero eveniet error?
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgb(34, 34, 34);
+            padding: 20px;
+            height: 100vh;
+            /* //imp-> GRID stuff here */
+            display: grid;
+            /* grid-template-columns: 100px 100px 100px; */
+            /* grid-template-columns: repeat(4, 200px); */
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: 100px 100px 100px; */
+            /* grid-template-rows: repeat(2, 200px); */
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 20px;
+
+        }
+
+        header {
+            /* //imp-> spanning */
+            /* grid-column-start: 1; */
+            /* grid-column-end: 3; */
+            /* grid-row-start: 1; */
+            /* grid-row-end: 3; */
+
+
+            /* //imp->shorthand */
+            /* grid-column: 1/3; */
+            /* grid-row: 1/3; */
+        }
+
+
+
+
+
+        .s {
+            padding: 20px;
+            background-color: rgb(84, 84, 84);
+            text-align: center;
+            color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //imp-> grid line => horizontal or vertical line -->
+    <section class="container">
+        <header class="s">Header</header>
+        <nav class="s">Nav</nav>
+        <main class="s">Main</main>
+        <aside class="s">Aside</aside>
+        <footer class="s">Footer</footer>
+        <div class="s">Div</div>
+    </section>
+</body>
+5:55:00
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgb(34, 34, 34);
+            padding: 20px;
+            height: 100vh;
+            /* //imp-> GRID stuff here */
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            grid-gap: 10px;
+
+
+
+
+            grid-template-areas:
+                /* triple h(header) will take area upto line number 3 */
+                "h h h h",
+                /* "m m m m"; */
+
+
+
+
+
+                /* justify-content: flex-start; */
+                /* justify-content: space-around; */
+                /* justify-content: center; */
+
+                /* align-items: flex-end; */
+                /* align-items: center; */
+
+        }
+
+
+        header {
+            /* grid-column-end: -1; */
+            /* //imp-> delhop header sabse last mey chali gyi */
+            /* order: 1; */
+
+
+
+            /* align-self: flex-end; */
+
+
+
+            /* this is grid item size and the location int he grid layout*/
+            /* grid-area: h; */
+        }
+
+        main {
+            /* order: 2; */
+            /* grid-area: m; */
+        }
+
+
+        .s {
+            padding: 20px;
+            background-color: rgb(84, 84, 84);
+            text-align: center;
+            color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //imp-> grid line => horizontal or vertical line -->
+    <section class="container">
+        <header class="s">Header</header>
+        <nav class="s">Nav</nav>
+        <main class="s">Main</main>
+        <aside class="s">Aside</aside>
+        <footer class="s">Footer</footer>
+        <!-- <div class="s">Div</div> -->
+    </section>
+</body>
+
+</html>
+
+
+6:16:00 👈yha se pending hai(GRID PORTION)

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* https://www.youtube.com/watch?v=8W6B81FNoBw */
+        .outer {
+            background: green;
+            height: 500px;
+            width: 500px;
+        }
+
+        .inner {
+            background: red;
+            height: 100px;
+            width: 500px;
+            border: 10px solid black;
+
+
+            /* //imp-> inn donokay saath khel */
+            /* border-box property mey border add kroge toh the border ussi height,weidth kay andar add ho jaayega  */
+            /* box-sizing: border-box; */
+            box-sizing: content-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+
+</body>
+
+</html>

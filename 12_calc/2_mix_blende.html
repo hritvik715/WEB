@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: black;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: rgba(0, 0, 255, 0.457);
+
+        }
+
+        .container .img {
+            background-image: linear-gradient(rgba(70, 131, 180, 0.6), rgba(178, 34, 34, 0.511)), url("https://images.unsplash.com/photo-1729350131236-b086388068c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D");
+
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: cover;
+            height: 100vh;
+
+
+
+            /* //imp-> (.container) ka backgrnd-color change kro uske hisaab se bhi change hogi */
+            /* mix-blend-mode: multiply;
+            mix-blend-mode: darken;
+            mix-blend-mode: lighten;
+            mix-blend-mode: color-dodge;
+            mix-blend-mode: color-burn;
+            mix-blend-mode: difference;
+            mix-blend-mode: hue; */
+
+            mix-blend-mode: overlay;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="img"></div>
+
+    </section>
+</body>
+6;49;00
+
+</html>

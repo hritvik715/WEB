@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: black;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: rgba(204, 255, 0, 0.51);
+
+        }
+
+        .container .img {
+            background-image: url("https://images.unsplash.com/photo-1729016698490-ea9a76c8d389?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D"), url("https://images.unsplash.com/photo-1720546750928-94b32b8a2210?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), linear-gradient(rgba(70, 131, 180, 0), rgba(178, 34, 34, 0.444));
+
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: cover;
+            height: 100vh;
+
+
+
+            /* //imp-> (.container) ka backgrnd-color change kro uske hisaab se bhi change hogi */
+            /* mix-blend-mode: multiply; */
+            /* mix-blend-mode: darken; */
+            /* mix-blend-mode: lighten; */
+            /* mix-blend-mode: color-dodge; */
+            /* mix-blend-mode: color-burn; */
+            /* mix-blend-mode: difference; */
+            /* mix-blend-mode: hue; */
+
+            /* mix-blend-mode: overlay; */
+
+
+
+
+            /* //imp->isse dono images overlay ho jaayegni */
+            background-blend-mode: multiply, screen;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="img"></div>
+
+    </section>
+</body>
+6;49;00
+
+</html>

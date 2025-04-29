@@ -1,0 +1,25 @@
+{
+  "name": "huxn",
+  "version": "1.0.0",
+  "description": "my package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@huxn-webdev"
+  },
+  "author": "HuXn WebDev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+// The command "nodemon index.js" in your package.json under the scripts section allows you to run your application using Nodemon.
+// What Does nodemon index.js Do?
+// Automatically restarts your server whenever you make changes to index.js or any other file in your project.
+// Prevents you from manually restarting the server using Ctrl + C and then running node index.js again.
+// Useful for development as it makes the workflow more efficient.

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100vh;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .container>a {
+            text-decoration: none;
+            border: 2px solid red;
+            padding: 10px 20px;
+            color: brown;
+
+
+            /* //imp->Transition */
+            /* transtn proprty measn what do u want to change => we want to change everything so select all */
+            transition-property: all;
+            /* agar hum sirf color mey transituin chhahte hai */
+            /* transition-property: color; */
+            /* agar hum sirf baclgrnf color mey transition chahte  hai */
+            /* transition-property: background-colo; */
+
+            transition-duration: 1s;
+
+
+
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: linear; */
+
+
+            /* visit site => cubic-beizer for difft transition proprty */
+            /* transition-timing-function: cubic-bezier(.17, .67, .65, .2); */
+            transition-timing-function: cubic-bezier(.74, .93, 1, -0.08);
+
+
+
+        }
+
+
+
+        .container>a:hover {
+            /*ye hover vaala concept => folder-8 => file-10 */
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <a href="">click me</a>
+    </section>
+
+</body>
+
+</html>

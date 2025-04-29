@@ -1,0 +1,9 @@
+pre-requisite
+1.tailwind CSS
+2.JS
+3. type script
+4. html CSS
+
+
+to install rectjs 
+typpe in terminal => npm create vite@latest

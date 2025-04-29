@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* //imp->static position deafult behaviour hoti hai tags ki */
+
+
+
+        /* //imp->relative position => the element is positioned relative to its normal position (jab relative use kroge toh left,top,bottom,right use karna hoga) */
+
+        .container {
+            background: grey;
+            width: 90%;
+            height: 500px;
+        }
+
+
+        .d {
+            width: 100px;
+            height: 100px;
+        }
+
+        .one {
+            background: red;
+            position: relative;
+            left: 100px;
+        }
+
+        .two {
+            background: blue;
+            /*//imp-> absolute is positioned qacdording to their ancestoral element */
+            position: absolute;
+            left: 200px;
+            top: 200px;
+        }
+
+        .three {
+            background: teal;
+
+
+            /* //imp-> isse scroll karne pe bhi ussi  jagah rahegi  */
+            position: fixed;
+            left: 200px;
+        }
+
+
+        .four {
+            background: green;
+            /* //imp->ye bhi kuch kuch scroll vaale ki tartah hai lekin ye certain portion takk hi scroll  hoga */
+            position: sticky;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d one"></div>
+        <div class="d two"></div>
+        <div class="d three"></div>
+        <div class="d four"></div>
+
+    </div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            color: orange;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            width: 200px;
+            height: 200px;
+            background: teal;
+        }
+
+        .child {
+            position: relative;
+            left: 100px;
+
+            /* //imp->comment and uncmnt this u will get idea */
+            background-color: inherit;
+
+            /* //imp-> ye bhi 200 ho jaayegi */
+            width: inherit;
+            height: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">Hello
+        <div class="child">world</div>
+    </div>
+
+</body>
+
+</html>
