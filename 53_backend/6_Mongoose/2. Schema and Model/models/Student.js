@@ -1,6 +1,10 @@
 import mongoose from "mongoose";
 
 // Defining Schema
+
+//imp-> schema is a blueprint of the data
+//imp-> schema is a method in mongoose
+
 const movieSchema = new mongoose.Schema({
   name: { type: String, required: true, trim: true },
   ratings: { type: Number, required: true, min: 1, max: 5 },
