@@ -16,5 +16,3 @@ connectDB(DATABASE_URL);
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
-console.log(`Connecting to database at ${DATABASE_URL}`);
